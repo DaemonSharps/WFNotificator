@@ -14,7 +14,7 @@ namespace BatteryCheckWindowsService
                 var info = Battery.GetInfo();
 
                 if (info.Status != BatteryStatus.Uncharging
-                    && info.ChargePercent >= 20)
+                    && info.ChargePercent >= 90)
                 {
                     CreateToast(info.ChargePercent);
                     Thread.Sleep(60000);
