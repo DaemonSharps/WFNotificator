@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.0.1" />
     <PackageReference Include="System.Management" Version="5.0.0" />
+    <None Remove="Battery.exe" />
   </ItemGroup>
 
 </Project>
